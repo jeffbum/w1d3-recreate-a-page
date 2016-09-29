@@ -21,6 +21,9 @@ header{
     text-shadow: 2px;
     max-width: 100%;
     }
+section .wrap {
+    text-align:center;
+}
 
 .column{
     display:inline-block;
@@ -47,11 +50,11 @@ button{
     transition-delay: .3s
 }
 .section2{
-    /*display:inline-block;*/
-    display: flex;
+    display:inline-block;
     text-align: center;
     margin-left: 330px;
     width: calc(100%/2);
+    columns: 2;
 }
 footer{
     color: white;
